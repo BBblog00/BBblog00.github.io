@@ -223,11 +223,20 @@
 <td align="center">1362</td>
 </tr>
 </tbody></table>
-<p>可见糖类热量值相差不大,根据105KJ&#x2F;100ml的能量值,我们可以推算出糖的浓度:<br>$$<br>C_{糖}&#x3D;62.5g&#x2F;L\<br>C_{蜂蜜}&#x3D;77.1g&#x2F;L<br>$$</p>
+<p>可见糖类热量值相差不大,根据105KJ&#x2F;100ml的能量值,我们可以推算出糖的浓度:</p>
+<p>$$<br>C_{糖}&#x3D;62.5g&#x2F;L\<br>C_{蜂蜜}&#x3D;77.1g&#x2F;L<br>$$</p>
 <ul>
-<li>无机盐<br>我们先分析一下原料都给溶液提供了什么:<br>$$<br>NaCl-Na^+,Cl^-\<br>KCl-K^+,Cl^-\<br>MgCO_{3}-Mg^{2+},CO_{3}^{2-}\<br>乳酸钙-Ca^{2+},2Lactate^-\<br>柠檬酸钠-3Na^+,Citrate^{3-}\<br>柠檬酸-Citrate^{3-}\<br>$$<br><em>其实我们可以发现包装上的成分配比表和原料表不是完全正确.例如乳酸钙中Ca<sup>2+</sup>与Lactate<sup>-</sup>比例应为<code>1:2</code>,理论上应为1mEq&#x2F;L Ca<sup>2+</sup>与2mEq&#x2F;L Lactate<sup>-</sup>,而配比表中它们的比例是1:1,但是原料表中只有乳酸钙能够提供Ca<sup>2+</sup>与Lactate<sup>-</sup>,再没有其它物质提供Ca<sup>2+</sup>或Lactate<sup>-</sup>,所以要么是Ca<sup>2+</sup>多,要么是Lactate<sup>-</sup>少.这里我们以Ca<sup>2+</sup>为标准.</em></li>
+<li>无机盐<br>我们先分析一下原料都给溶液提供了什么:</li>
 </ul>
-<p>可见氯离子$Cl^-$可由$KCl$和$NaCl$提供,钠离子$Na^+$可由$KCl$,$NaCl$,柠檬酸钠三者提供,这是我们等会在计算组分浓度时需要考虑到的.<br><br>根据配方表:<em>(单位转换参考:mEq&#x2F;L&#x3D;mmol&#x2F;L&#x3D;10<sup>-3</sup>mol&#x2F;L)</em><br>$$<br>m_{KCl}&#x3D;M_{KCl}*C_{K^+}&#x3D;0.3725g\<br>m_{MgCO_{3}}&#x3D;M_{Mg^{2+}}*C_{MgCO_{3}}&#x3D;0.2180g\<br>m_{乳酸钙}&#x3D;M_{乳酸钙}*C_{Ca^{2+}}&#x3D;0.2180g<br>$$<br>于是$C_{Cl^-(NaCl)}&#x3D;C_{Cl^-}-C_{K^+}&#x3D;11mEq&#x2F;L$,因为$Cl^-$由$NaCl$和$KCl$提供,且$KCl$和$NaCl$的阴阳离子比例都为$1:1$,所以用总的$Cl^-$浓度减去$K^+$浓度即得$NaCl$浓度.<br>$$<br>m_{NaCl}&#x3D;M_{NaCl}*C_{Cl^-(NaCl)}&#x3D;0.6435g<br>$$<br>按照同样的思路,我们可以得到柠檬酸钠的浓度$C_{柠檬酸钠}&#x3D;\frac{1}{3}C_{Na^+}&#x3D;C_{Na^+总}-C_{NaCl}&#x3D;\frac{10}{3}mEq&#x2F;L$.<br>$$<br>m_{柠檬酸钠}&#x3D;M_{柠檬酸铵}*C_{柠檬酸钠}&#x3D;0.8600g<br>$$<br>于是可以算出柠檬酸的浓度$C_{柠檬酸}&#x3D;C_{Citrate^{3-}}-C_{柠檬酸钠}&#x3D;\frac{20}{3}mEq&#x2F;L$</p>
+<p>$$<br>NaCl-Na^+,Cl^-\<br>KCl-K^+,Cl^-\<br>MgCO_{3}-Mg^{2+},CO_{3}^{2-}\<br>乳酸钙-Ca^{2+},2Lactate^-\<br>柠檬酸钠-3Na^+,Citrate^{3-}\<br>柠檬酸-Citrate^{3-}\<br>$$</p>
+<p><em>其实我们可以发现包装上的成分配比表和原料表不是完全正确.例如乳酸钙中Ca<sup>2+</sup>与Lactate<sup>-</sup>比例应为<code>1:2</code>,理论上应为1mEq&#x2F;L Ca<sup>2+</sup>与2mEq&#x2F;L Lactate<sup>-</sup>,而配比表中它们的比例是1:1,但是原料表中只有乳酸钙能够提供Ca<sup>2+</sup>与Lactate<sup>-</sup>,再没有其它物质提供Ca<sup>2+</sup>或Lactate<sup>-</sup>,所以要么是Ca<sup>2+</sup>多,要么是Lactate<sup>-</sup>少.这里我们以Ca<sup>2+</sup>为标准.</em></p>
+<p>可见氯离子$Cl^-$可由$KCl$和$NaCl$提供,钠离子$Na^+$可由$KCl$,$NaCl$,柠檬酸钠三者提供,这是我们等会在计算组分浓度时需要考虑到的.<br><br>根据配方表:<em>(单位转换参考:mEq&#x2F;L&#x3D;mmol&#x2F;L&#x3D;10<sup>-3</sup>mol&#x2F;L)</em></p>
+<p>$$<br>m_{KCl}&#x3D;M_{KCl}*C_{K^+}&#x3D;0.3725g\<br>m_{MgCO_{3}}&#x3D;M_{Mg^{2+}}*C_{MgCO_{3}}&#x3D;0.2180g\<br>m_{乳酸钙}&#x3D;M_{乳酸钙}*C_{Ca^{2+}}&#x3D;0.2180g<br>$$</p>
+<p>于是$C_{Cl^-(NaCl)}&#x3D;C_{Cl^-}-C_{K^+}&#x3D;11mEq&#x2F;L$,因为$Cl^-$由$NaCl$和$KCl$提供,且$KCl$和$NaCl$的阴阳离子比例都为$1:1$,所以用总的$Cl^-$浓度减去$K^+$浓度即得$NaCl$浓度.</p>
+<p>$$<br>m_{NaCl}&#x3D;M_{NaCl}*C_{Cl^-(NaCl)}&#x3D;0.6435g<br>$$</p>
+<p>按照同样的思路,我们可以得到柠檬酸钠的浓度$C_{柠檬酸钠}&#x3D;\frac{1}{3}C_{Na^+}&#x3D;C_{Na^+总}-C_{NaCl}&#x3D;\frac{10}{3}mEq&#x2F;L$.</p>
+<p>$$<br>m_{柠檬酸钠}&#x3D;M_{柠檬酸铵}*C_{柠檬酸钠}&#x3D;0.8600g<br>$$</p>
+<p>于是可以算出柠檬酸的浓度$C_{柠檬酸}&#x3D;C_{Citrate^{3-}}-C_{柠檬酸钠}&#x3D;\frac{20}{3}mEq&#x2F;L$</p>
 <h3 id="自制-家庭配方"><a href="#自制-家庭配方" class="headerlink" title="自制&#x2F;家庭配方"></a>自制&#x2F;家庭配方</h3><table>
 <thead>
 <tr>
@@ -282,7 +291,7 @@
       
     </div>
     <footer class="article-footer">
-      <a data-url="http://example.com/2025/05/05/%E6%89%8B%E6%90%93%E7%94%B5%E8%A7%A3%E8%B4%A8%E6%B0%B4/" data-id="cmakmbckx0001704qhnuc84zx" data-title="手搓电解质水" class="article-share-link"><span class="fa fa-share">Teilen</span></a>
+      <a data-url="http://example.com/2025/05/05/%E6%89%8B%E6%90%93%E7%94%B5%E8%A7%A3%E8%B4%A8%E6%B0%B4/" data-id="cmakwp1220000584q23zr0lvh" data-title="手搓电解质水" class="article-share-link"><span class="fa fa-share">Teilen</span></a>
       
       
       
@@ -334,7 +343,7 @@
       
     </div>
     <footer class="article-footer">
-      <a data-url="http://example.com/2025/05/04/%E6%88%91%E5%8D%9A%E5%AE%A2%E7%9A%84%E5%BC%80%E5%A7%8B/" data-id="cmakmbckt0000704q7say1v3b" data-title="我博客的开始" class="article-share-link"><span class="fa fa-share">Teilen</span></a>
+      <a data-url="http://example.com/2025/05/04/%E6%88%91%E5%8D%9A%E5%AE%A2%E7%9A%84%E5%BC%80%E5%A7%8B/" data-id="cmakwp1290003584q82iy7msh" data-title="我博客的开始" class="article-share-link"><span class="fa fa-share">Teilen</span></a>
       
       
       
